@@ -1,0 +1,16 @@
+int add(int x, int y){
+    return x+y;
+}
+
+int main(){
+    array<int> fib=[];
+    while(i<15){
+        switch(i){
+        case 0:fib.append(1);break;
+        case 1:fib.append(1);break;
+        default:fib.append(add(fib.get(i-1),fib.get(i-2)));
+        }
+    }
+    print(string(fib[14]));
+    return 0;
+}

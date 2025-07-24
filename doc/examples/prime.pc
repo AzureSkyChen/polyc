@@ -1,0 +1,21 @@
+int main(){
+    dict<int,bool> d={};
+    d[0]=false;
+    d[1]=false;
+    while(i<100){
+        if(!d.containsKey(i)){
+            d[i]=true;
+            print(string(i)+",");
+            int k=i;
+            while(j<100){
+                k+=i;
+                if(k>=100){
+                    break;
+                }
+                d[k]=false;
+            }
+        }
+    }
+    print("end\n");
+    return 0;
+}

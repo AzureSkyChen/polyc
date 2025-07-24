@@ -1,0 +1,18 @@
+int main(int x,int y){
+    print(string(x)+"*");
+    print(string(y)+"=");
+    iterable int z=y;
+    int o=0;
+    while(i<size(z)){
+        if(y%2!=0){
+            o+=x;
+        } else {}
+        x+=x;
+        y/=2;
+    }
+    if(z<0){
+        o=-o;
+    }
+    print(string(o)+"\n");
+    return 0;
+}
